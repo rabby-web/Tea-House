@@ -11,6 +11,11 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/dc89de87db.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -40,8 +45,8 @@
   <body class="manrope bg-white">
     <!-- header -->
     <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+      <div class="hero text-black">
+        <div class="hero-content flex-col-reverse lg:flex-row">
           <div>
             <h1 class="text-7xl font-extrabold">
               It's good <br />tea time at The <br />Tea House
@@ -54,6 +59,15 @@
           </div>
           <div>
             <img src="/images/banner.png" class="max-w-sm rounded-lg" />
+            <div
+              class="flex items-center bg-white drop-shadow-lg p-5 w-60 -mt-16"
+            >
+              <i class="fa-solid fa-star text-3xl text-amber-500"></i>
+              <div>
+                <h3 class="text-3xl font-semibold">5.00</h3>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
